@@ -15,7 +15,7 @@
 //    if ($flag_dev)
 //    {
 //        echo "<BR><BR>";
-//        echo "origClients (первые 250)";
+//        echo "origClients (РїРµСЂРІС‹Рµ 250)";
 //        echo "<BR>";
 //        echo substr($origClients, 0, 250) . "...";
 //    }
@@ -26,51 +26,15 @@
 
     require_once "RndClient.php";
     $RndClient = new RndClient();
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
-    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n");
+
+    for ($i = 1; $i <= 100; $i++)
+    {
+        echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "<BR><BR>");
+
+    }
+
+
+//    echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() . $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() . $RndClient->getDateofbirth() . "\n\n");
 
 //    echo $origClients;
 //    $Result=$origClients;
