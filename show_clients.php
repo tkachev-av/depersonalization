@@ -27,7 +27,7 @@
     require_once "RndClient.php";
     $RndClient = new RndClient();
 
-    for ($i = 1; $i <= 100; $i++)
+    for ($i = 1; $i <= 10; $i++)
     {
         echo($RndClient->getFam() . " " . $RndClient->getName() . " " . $RndClient->getOt() .
             $RndClient->getDocument() . $RndClient->getDocumentseries() . $RndClient->getDocumentnumber() .
