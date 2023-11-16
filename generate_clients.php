@@ -2,13 +2,15 @@
 
 
 require_once "RndClient.php";
-$RndClient = new RndClient();
 $massiv = array();
 $razd = "";
-//$razdelitel = "|";
+static $GENDER_J = "Ж";
+static $GENDER_M = "М";
 
 for ($stroka = 0; $stroka < 100; $stroka++)
 {
+    $RndClient = new RndClient();
+
     if ($stroka == 0) $id = "id пациента";
     else $id = $RndClient->getId();
     $massiv[$stroka][0] = $id . $razd;
@@ -21,18 +23,24 @@ for ($stroka = 0; $stroka < 100; $stroka++)
      * true - М
      * false - Ж
      */
-    $gender = rand(true, false);
+    if ($stroka == 0) $gender = "Пол";
+    else $gender = ($RndClient->getGender()) ? $GENDER_M : $GENDER_J;
+    $massiv[$stroka][18] = $gender . $razd;
+
+    if ($stroka == 0) $patient_status = "Статус пациента";
+    else $patient_status = $RndClient->getPatientstatus();
+    $massiv[$stroka][11] = $patient_status . $razd;
 
     if ($stroka == 0) $fam = "Фамилия";
-    else  $fam = $RndClient->getFam($gender);
+    else  $fam = $RndClient->getFam();
     $massiv[$stroka][2] = $fam . $razd;
 
     if ($stroka == 0) $name = "Имя";
-    else $name = $RndClient->getName($gender);
+    else $name = $RndClient->getName();
     $massiv[$stroka][3] = $name . $razd;
 
     if ($stroka == 0) $ot = "Отчество";
-    else $ot = $RndClient->getOt($gender);
+    else $ot = $RndClient->getOt();
     $massiv[$stroka][4] = $ot . $razd;
 
     if ($stroka == 0) $doc = "Документ";
@@ -59,10 +67,6 @@ for ($stroka = 0; $stroka < 100; $stroka++)
     else $email = $RndClient->getEmail();
     $massiv[$stroka][10] = $email . $razd;
 
-    if ($stroka == 0) $p_status = "Статус пациента";
-    else $p_status = $RndClient->getPatientstatus();
-    $massiv[$stroka][11] = $p_status . $razd;
-
     if ($stroka == 0) $lonely = "Связь с другим пациентом";
     else $lonely = $RndClient->isLonely();
     $massiv[$stroka][12] = $lonely . $razd;
@@ -88,9 +92,7 @@ for ($stroka = 0; $stroka < 100; $stroka++)
 //    if($stroka == 0)
 //    else $massiv[$stroka][17] = $RndClient->getStreet() . $razd;
 
-    if ($stroka == 0) $gender = "Пол";
-    else $gender = $RndClient->getGender($gender);
-    $massiv[$stroka][18] = $gender . $razd;
+//    $gender = "Пол"; $massiv[$stroka][18]
 
     if ($stroka == 0) $place_birth = "Место рождения";
     else $place_birth = $RndClient->getPlaceofbirth();
@@ -101,27 +103,11 @@ for ($stroka = 0; $stroka < 100; $stroka++)
     $massiv[$stroka][20] = $referral_s . $razd;
 
     if ($stroka == 0) $referral_doct = "Врач, от которого узнал";
-    else $referral_doct = $RndClient->getReferringdoctor();
+    else
+    {
+        $isYznalOtDoctora = strcmp($RndClient->getReferralsource(), RndClient::FROM_DOCTOR_STR);
+        $referral_doct = (0 == $isYznalOtDoctora) ? $RndClient->getReferringdoctor() : "";
+    }
     $massiv[$stroka][21] = $referral_doct . $razd;
-
-//        $massiv[$stroka][18] = $RndClient->() . $razd;
 }
-
-//echo "<table border='0'>";
-//foreach ($massiv as $row) {
-//    echo "<tr>";
-//    foreach ($row as $cell) {
-//        echo "<td>$cell</td>";
-//    }
-//    echo "</tr>";
-//}
-//echo "</table>";
-
-
-//print($massiv[10][10]);
-//print(count($massiv));
-//var_dump($massiv[0]);
-//print(count($massiv[0]));
-
-//print($massiv);
 
